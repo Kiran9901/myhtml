@@ -71,6 +71,91 @@
         <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
     </ul>
 
-    
+    <!--We can even create nested lists(lists inside elements of the list, but is left as an exercise later, whenever is really needed)-->
+
+    <h3>Some information in a table</h3>
+
+    <!--Table tag in HTML-->
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>Kiran</td>
+            <td>19</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>Charan</td>
+            <td>14</td>
+            <td>Male</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!--Forms in HTML-->
+    <!--Use formspree to send the forms data directly to an email, for testing static websites. 
+    URL: https://www.formspree.io -->
+    <form action="" method="">
+
+        <!--input field in HTML form, which can be
+        1.date,month,number, search
+        2.time,text, url
+        3.week
+        4.color
+        5.email
+        6.file
+        7.password,radio,range, reset-->
+
+        <!--name attribute is used in javascript for gving the attribute name while collecting data-->
+        <label for="name">First Name</label>
+        <!--Label is used to name an input field on the HTML view(Even a paragraph can be used to do the same). On clicking the label, the input field gets hiighlighted-->
+        <input type="text" name="name" id="name" placeholder="Your First Name">
+         <!--Placeholder is default value placed on a input form field-->
+        <br><br><!--Break tag used for space, not required when CSS is being used-->
+        <label for="pswd">Password</label>
+        <input type="password" name="pswd" id="pswd" placeholder="Your Password">
+       
+        <br><br>
+        <label for="email">Email</label>
+        <!--Value attribute is similar to placeholder, the difference is that here the value doesn't gets erased on clicking the input field-->
+        <input type="email" name="email" id="email" value="example@yourmail.com">
+        <br><br>
+        <!--Alternatively, button of type submit can also be used-->
+        <br><br>
+        <!--textarea input field provides the user to submit some multi line text-->
+        <p>Description</p>
+        <textarea name="description" id="description" cols="20" rows="15"></textarea>
+        <br><br>
+        <!--Radio buttons are single valued multi choiced input fields in HTML form i.e, only one value can be checked at a particular moment.Make sure that name attribute for group of radio choices are same, so as to ensure data integrity-->
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="" value="Male">Male
+        <input type="radio" name="gender" id="" value="Male">Female
+        <br><br>
+
+        <!--Checkboxes are similar to radio, here multiple arguments can be submitted to the form, unlike radiobox. 
+        If one wants to have a choice checked by default, set the checked argument to checked on that particular choice-->
+        <label for="interests">Interests</label>
+        <input type="checkbox" name="interests" id="" value="Reading">Reading
+        <input type="checkbox" name="interests" id="" value="Cricket">Cricket
+        <input type="checkbox" name="interests" id="" value="Coding">Coding
+        <br><br>
+
+        <!--Select tag in HTML, used generally in dropdown menu -->
+        <label for="agegrp">Age Group</label>
+        <select name="agegrp" id="">
+            <option value="kid">0-5</option>
+            <option value="child">5-12</option>
+            <option value="teen">13-19</option>
+            <option value="adult">20-45</option>
+            <option value="middleaged">45-60</option>
+            <option value="oldaged">>60</option>
+        </select>
+        <br><br>  
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
