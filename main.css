@@ -1,0 +1,13 @@
+/*This is the CSS file used for styling a webpage. Pretty excited
+Now, it is recommended to install bracket pair colorizer, it colorizes the brackets used in css. For this, go to extensions tab and search for bracket pair colorizer and just install it. Simple to do!
+
+Another extension to be installed is Highlight Matching Tag, as the tile itself reflects, it highligths the matchng(closing and opening tag)
+
+Post installation of highlight matching tag:
+Copy the code that's present below the extension title page and paste it on your settings(in json format)
+Then change the attributes to 3px and yellow whereever you find 1px and white. Not only that, but you can change color according to your own interest. 
+Now, the brackets and the cursor are highlighted in yellow color.*/
+
+/**/
+ {
+}
