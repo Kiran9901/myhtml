@@ -20,11 +20,20 @@ selector
     propertyn:valuen;
 }*/
 
-/*Time to improve our webpage using CSS file:)*/
+/*Time to improve our webpage using CSS:)*/
 
 /*There are 3 ways to use css to style web pages: 
 1. Inline(At the tag)
 2. Internal(Inside the head tag using style tag)
 3. External
 
-3rd type of using external css is nothing but the file named main.css created here itself.*/
+Internal CSS is only applied at the page level.
+      
+Inline css is applied only at a particular attribute
+
+However, external CSS can be applied at the global level i.e, wherever one wants to apply the propeties mentioned in that particular external css file, on the head of the webpage, link the external css file to the webpage where one wwants to use. 
+*/
+
+h3 {
+  color: crimson;
+}
