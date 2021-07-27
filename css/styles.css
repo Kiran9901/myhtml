@@ -38,8 +38,21 @@ Inline CSS overrides Internal CSS, Intrenal CSS overrides external CSS.
 Syntax for commenting is /**/
 
 /*Selecting all h3 tags and applying the mentioned properties*/
+h1 {
+  color: indigo;
+  font-size: 2rem;
+}
+
+h2 {
+  color: forestgreen;
+  font-size: 1.75rem;
+}
+
+/* Note that same properties of the selectors h1 and h are mentioned in internal styling too so as to avoid the clash b/w external and internal styling and even include the concept of internal css or styling in the webpages demonstrated here */
+
 h3 {
   color: crimson;
+  /* All the h3's would have crimson text */
   font-size: 1rem;
 }
 
