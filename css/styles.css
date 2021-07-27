@@ -38,6 +38,14 @@ Inline CSS overrides Internal CSS, Intrenal CSS overrides external CSS.
 Syntax for commenting is /**/
 
 /*Selecting all h3 tags and applying the mentioned properties*/
+
+body {
+  color: blue;
+  /* Makes the whole text of a particular webpage blue, but comment internal css or inline css to make this work properly 
+  
+  ***A noteworthy point here is that the body selector which is used here is just applied as a default color to tags. Note that h1, h2 and h3 tags are also used here which are childeren to the body selector, so the blue color doesn't apply to the h1, h and h3 tags mentioned here*** */
+}
+
 h1 {
   color: indigo;
   font-size: 2rem;
@@ -48,7 +56,7 @@ h2 {
   font-size: 1.75rem;
 }
 
-/* Note that same properties of the selectors h1 and h are mentioned in internal styling too so as to avoid the clash b/w external and internal styling and even include the concept of internal css or styling in the webpages demonstrated here */
+/* Note that same properties of the selectors h1 and h2 are mentioned in internal styling too so as to avoid the clash b/w external and internal styling and even include the concept of internal css or styling in the webpages demonstrated here */
 
 h3 {
   color: crimson;
