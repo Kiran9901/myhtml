@@ -43,7 +43,7 @@ body {
   color: blue;
   /* Makes the whole text of a particular webpage blue, but comment internal css or inline css to make this work properly 
   
-  ***A noteworthy point here is that the body selector which is used here is just applied as a default color to tags. Note that h1, h2 and h3 tags are also used here which are childeren to the body selector, so the blue color doesn't apply to the h1, h and h3 tags mentioned here*** */
+  ***A noteworthy point here is that the body selector which is used here is just applied as a default color to tags. Note that h1, h2 and h3 tags are also used here which are childeren to the body selector, so the blue color doesn't apply to the h1, h2 and h3 tags mentioned here*** */
 }
 
 h1 {
