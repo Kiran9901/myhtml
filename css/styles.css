@@ -36,7 +36,20 @@ However, external CSS can be applied at the global level i.e, wherever one wants
 Inline CSS overrides Internal CSS, Intrenal CSS overrides external CSS.
 
 Syntax for commenting is /**/
+
+/*Selecting all h3 tags and applying the mentioned properties*/
 h3 {
   color: crimson;
   font-size: 1rem;
 }
+
+/*CSS rule,
+h3 {
+  color: crimson;
+  font-size: 1rem;
+} is collectively called as CSS rule */
+/* Selectors
+In color: crimson; color is a selector*/
+/* Declaration block, area inside the curly braces is known as declaration block*/
+/* Declaration
+color: crimson; whole line mentioned here is called a declaration */
