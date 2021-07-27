@@ -85,7 +85,11 @@ h4 {
   color: yellowgreen;
 }
 
+/* ID Selectors in CSS */
+
 #custom {
   color: darkslategray;
   background-color: khaki;
 }
+
+/* Class Selectors in CSS */
