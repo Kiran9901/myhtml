@@ -32,6 +32,8 @@ Internal CSS is only applied at the page level.
 Inline css is applied only at a particular attribute
 
 However, external CSS can be applied at the global level i.e, wherever one wants to apply the propeties mentioned in that particular external css file, on the head of the webpage, link the external css file to the webpage where one wwants to use. 
+
+Inline CSS overrides Internal CSS, Intrenal CSS overrides external CSS.
 */
 
 h3 {
