@@ -36,4 +36,5 @@ However, external CSS can be applied at the global level i.e, wherever one wants
 
 h3 {
   color: crimson;
+  font-size: 1rem;
 }
