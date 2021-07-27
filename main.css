@@ -8,7 +8,7 @@ Copy the code that's present below the extension title page and paste it on your
 Then change the attributes to 3px and yellow whereever you find 1px and white. Not only that, but you can change color according to your own interest. 
 Now, the brackets and the cursor are highlighted in yellow color.*/
 
-/*Noww, time to understand why CSS is important to our web pages
+/*Now, time to understand why CSS is important to our web pages
 CSS(stands for Cascading Style Sheets), is responsible for styling the web pages
 HTML - Structure or Skeleton, whereas CSS - Layout, Look
 Basic syntax of CSS: 
@@ -23,6 +23,6 @@ selector
 /*Time to improve our webpage using CSS file:)*/
 
 /*There are 3 ways to use css to style web pages: 
-1. Inline
-2. Internal
+1. Inline(At the tag)
+2. Internal(Inside the head tag using style tag)
 3. External*/
