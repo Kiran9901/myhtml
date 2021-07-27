@@ -33,13 +33,26 @@
     <h2 style="color: indigo; font-size: 1.75rem">
       This is an inline styling right within the h1 tag!
       <!--Inline CSS is fine for single property attributes, but what about the attributes that require multiple properties? 
-     Assume that lots of h2 tags are being used and imagine the pain of writing inline styling for each and every tag! To avoid this, internal styling is used widely, where one can apply a property in common to all h2 tags in common-->
+     Assume that lots of h2 tags are being used and imagine the pain of writing inline styling for each and every tag! To avoid this, internal styling is used widely, where one can apply a property in common to all h2 tags in common.
+     
+     Remember that inline CSS is overrides the internal CSS, thats why still indigo color is on h2 tag 
+
+     Internal CSS is only applied at the page level, inline css is applied only at a particular attribute
+
+     However, external CSS can be applied at the global level i.e, wherever one wants to apply the propeties mentioned in that particular external css file, on the head of the webpage, link the external css file to the webpage where one wwants to use. 
     
-    <h2>This is h2 tag-1 with forestgreen color </h2>
-    <h2>This is h2 tag-2 with forestgreen color </h2>
-    <h2>This is h2 tag-3 with forestgreen color </h2>
-    <h2>This is h2 tag-4 with forestgreen color </h2>
-    <!-- Above piece of lines show how forestgreen color is applied in common to all h tags, as the h2 selector is mentioned in the style tag -->
+    Similarly, internal CSS overrides the external CSS-->
+    
+    <h1>This is h1 tag-1 with indigo color(Using internal CSS)</h1>
+    <h1>This is h1 tag-2 with indigo color(Using internal CSS)</h1>
+    <h1>This is h1 tag-3 with indigo color(Using internal CSS)</h1>
+    <h1>This is h1 tag-4 with indigo color(Using internal CSS)</h1>
+    
+    <h2>This is h2 tag-1 with forestgreen color(Using internal CSS) </h2>
+    <h2>This is h2 tag-2 with forestgreen color(Using internal CSS) </h2>
+    <h2>This is h2 tag-3 with forestgreen color(Using internal CSS) </h2>
+    <h2>This is h2 tag-4 with forestgreen color(Using internal CSS) </h2>
+    <!-- Above piece of lines show how forestgreen color is applied in common to all h2 tags, as the h2 selector is mentioned in the style tag -->
   
   
       
