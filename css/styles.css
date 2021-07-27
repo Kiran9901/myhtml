@@ -39,13 +39,6 @@ Syntax for commenting is /**/
 
 /*Selecting all h3 tags and applying the mentioned properties*/
 
-body {
-  color: blue;
-  /* Makes the whole text of a particular webpage blue, but comment internal css or inline css to make this work properly 
-  
-  ***A noteworthy point here is that the body selector which is used here is just applied as a default color to tags. Note that h1, h2 and h3 tags are also used here which are childeren to the body selector, so the blue color doesn't apply to the h1, h2 and h3 tags mentioned here*** */
-}
-
 h1 {
   color: indigo;
   font-size: 2rem;
@@ -78,3 +71,16 @@ color: crimson; whole line mentioned here is called a declaration */
 In color: crimson; color is the property*/
 /* Value 
 In color: crimson; crimson is the value*/
+
+body {
+  color: blue;
+  /* Makes the whole text of a particular webpage blue, but comment internal css or inline css to make this work properly 
+  
+  ***A noteworthy point here is that the body selector which is used here is just applied as a default color to tags. Note that h1, h2 and h3 tags are also used here which are childeren to the body selector, so the blue color doesn't apply to the h1, h2 and h3 tags mentioned here*** */
+}
+
+/* Grouping selectors in CSS */
+p,
+h4 {
+  color: yellowgreen;
+}
