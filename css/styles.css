@@ -49,7 +49,11 @@ h3 {
   font-size: 1rem;
 } is collectively called as CSS rule */
 /* Selectors
-In color: crimson; color is a selector*/
+In h1{......}, h1 is a selector*/
 /* Declaration block, area inside the curly braces is known as declaration block*/
 /* Declaration
 color: crimson; whole line mentioned here is called a declaration */
+/* Property 
+In color: crimson; color is the property*/
+/* Value 
+In color: crimson; crimson is the value*/
