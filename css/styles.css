@@ -123,4 +123,31 @@ h4 {
   color: red;
 }
 
-/* Grouped selectors using div and span elements */
+/* Grouped selectors using div and span elements(Above css rules doesn't work for group selectors, so one has to rely on individual css rules that are id specific). Uncomment the portion of the code and see the magic!. */
+
+/* #violet {
+  color: violet;
+}
+#indigo {
+  color: indigo;
+}
+#blue {
+  color: blue;
+}
+#green {
+  color: green;
+}
+#yellow {
+  color: yellow;
+}
+#orange {
+  color: orange;
+}
+#red {
+  color: red;
+} */
+
+/* Special SPAN property(span is generally used for block level elements) */
+span {
+  text-transform: uppercase;
+}
