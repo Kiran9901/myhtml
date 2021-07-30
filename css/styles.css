@@ -42,11 +42,13 @@ Syntax for commenting is /**/
 h1 {
   color: indigo;
   font-size: 2rem;
+  /* Alternatively, we can define font size in pixels too */
 }
 
 h2 {
   color: forestgreen;
   font-size: 1.75rem;
+  /* Alternatively, we can define font size in pixels too */
 }
 
 /* Note that same properties of the selectors h1 and h2 are mentioned in internal styling too so as to avoid the clash b/w external and internal styling and even include the concept of internal css or styling in the webpages demonstrated here */
@@ -55,6 +57,7 @@ h3 {
   color: crimson;
   /* All the h3's would have crimson text */
   font-size: 1rem;
+  /* Alternatively, we can define font size in pixels too */
 }
 
 /*CSS rule,
@@ -76,7 +79,11 @@ body {
   color: blue;
   /* Makes the whole text of a particular webpage blue, but comment internal css or inline css to make this work properly 
   
-  ***A noteworthy point here is that the body selector which is used here is just applied as a default color to tags. Note that h1, h2 and h3 tags are also used here which are childeren to the body selector, so the blue color doesn't apply to the h1, h2 and h3 tags mentioned here*** */
+  ***A noteworthy point here is that the body selector which is used here is just applied as a default color to tags. Note that h1, h2 and h3 tags are also used here which are children to the body selector, so the blue color doesn't apply to the h1, h2 and h3 tags mentioned here*** */
+  background-color: lightblue;
+  /* Background color property of body is set to lightblue */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Sets the default font of the hole webpage to Arial, Helvetica, sans-serif */
 }
 
 /* Grouping selectors in CSS */
@@ -92,4 +99,28 @@ h4 {
   background-color: khaki;
 }
 
-/* Class Selectors in CSS */
+/* Class Selectors used in combination with id's in CSS */
+
+.rainbow#violet {
+  color: violet;
+}
+.rainbow#indigo {
+  color: indigo;
+}
+.rainbow#blue {
+  color: blue;
+}
+.rainbow#green {
+  color: green;
+}
+.rainbow#yellow {
+  color: yellow;
+}
+.rainbow#orange {
+  color: orange;
+}
+.rainbow#red {
+  color: red;
+}
+
+/* Grouped selectors using div and span elements */

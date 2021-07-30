@@ -74,6 +74,8 @@
     <h3>This is a h3 tag-3 with crimson color (Using external CSS)</h3>
     <h3>This is a h3 tag-4 with crimson color (Using external CSS)</h3>
 
+  
+
   <h4>This is a h4 tag-1 with yellowgreen color(using group css selector)</h4>  
   <p>This is ap p tag-1 with yellowgreen color(using group css selector)</p>
   <h4>This is a h4 tag-2 with yellowgreen color(using group css selector)</h4>
@@ -82,11 +84,47 @@
   <h3 id="custom">This is a custom h2 tag, darkslategray in color, khaki background using the id attribute of HTML</h3>
 
   <p id="custom">This is a custom p tag, darkslategray in color, khaki background which has the same id as that of above tag using the id attribute of HTML</p>
-
   <!-- Notice above that though h3 selector is present, the id selector overrides all the attributes of the h3 selector mentioned above. And as both the ids of the h3 and p tags mentioned above are same, same properties(properties of the #custom selector) are applied to both the tags
   
   So, one point of conclusion that can be made out of this is that id should be unique to every attribute of the HTML, else the same would happen as happened in above exmaple. Good practice is to give unique names to id-->
-    
+
+
+  <!-- Defining colors of a rainbow using class and id while styling as a combo-->
+
+  <p class="rainbow" id="violet">This is violet color in rainbow</p>
+  <p class="rainbow" id="indigo">This is indigo color in rainbow</p>
+  <p class="rainbow" id="blue">This is blue color in rainbow</p>
+  <p class="rainbow" id="green">This is green color in rainbow</p>
+  <p class="rainbow" id="yellow">This is yellow color in rainbow</p>
+  <p class="rainbow" id="orange">This is orange color in rainbow</p>
+  <p class="rainbow" id="red">This is red color in rainbow</p> 
+
+
+  <!-- Div element in html is used for assigning common properties to elements that one wants to group based on that properties. 
+  Span element is used to highlight a small portions of HTML element by styling it (defining an id or a class for the corresponding span element)-->
+
+  <!-- For above example of rainbow, an alternative approach is to use a div element, instead of mentioning class name as rainbow for each element of the rainbow group 
+  Demonstration of the mentioned approach is shown below-->
+
+  <div class="rainbow">
+    <p id="violet">This is violet color in rainbow</p>
+    <p id="indigo">This is indigo color in rainbow</p>
+    <p id="blue">This is blue color in rainbow</p>
+    <p id="green">This is green color in rainbow</p>
+    <p id="yellow">This is yellow color in rainbow</p>
+    <p id="orange">This is orange color in rainbow</p>
+    <p id="red">This is red color in rainbow</p>
+  </div>
+
+  <!-- Notice the difference between two versions of the rainbow. In the first  version, the p tags are assigned class named rainbow and for each color, specific id's are alloted.
+  As both class and id attributes are of the same p tag, the notation such as .rainbow#violet{...} worked to style each p tag.
+
+  Whereas in the second case to grouping all the p tags ith a div tag, notice that the class attribute is assigned to the div tag,whereas the id attributes are assigned to p tags, which makes the styling not to work on the p tags in the second scenario 
+-->
+
+
+
+
  
     <!--
         Keyboard Shortcuts to save time:
