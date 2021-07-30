@@ -41,13 +41,13 @@ Syntax for commenting is /**/
 
 h1 {
   color: indigo;
-  font-size: 2rem;
+  font-size: 1.75rem;
   /* Alternatively, we can define font size in pixels too */
 }
 
 h2 {
   color: forestgreen;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   /* Alternatively, we can define font size in pixels too */
 }
 
@@ -56,7 +56,7 @@ h2 {
 h3 {
   color: crimson;
   /* All the h3's would have crimson text */
-  font-size: 1rem;
+  font-size: 1.25rem;
   /* Alternatively, we can define font size in pixels too */
 }
 
@@ -98,6 +98,16 @@ h4 {
   color: darkslategray;
   background-color: khaki;
 }
+/* To make distinction between duplicated custom tags, make two css rules with selectors as p#custom and h2#custom, which makes the distinction
+In detail, 
+p#custom {
+  color: darkslategray;
+  background-color: khaki;
+}
+h2#custom {
+  color: other_color;
+  background-color: other_background;
+}*/
 
 /* Class Selectors used in combination with id's in CSS */
 
@@ -147,7 +157,18 @@ h4 {
   color: red;
 } */
 
-/* Special SPAN property(span is generally used for block level elements) */
+/* Special SPAN property(span is generally used for block level elements i.e, styling for inline portion of elements) */
 span {
   text-transform: uppercase;
+}
+
+/* Different div tags used for different rainbo versions */
+div.rainbow1 {
+  background-color: aqua;
+}
+div.rainbow2 {
+  background-color: deepskyblue;
+}
+div.rainbow3 {
+  background-color: dodgerblue;
 }

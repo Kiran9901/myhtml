@@ -92,13 +92,15 @@
   <!-- Defining colors of a rainbow using class and id while styling as a combo-->
 
   <h1>Version 1 of Rainbow(Works fine!)</h1>
-  <p class="rainbow" id="violet">This is violet color in rainbow</p>
+  <div class="rainbow1">
+    <p class="rainbow" id="violet">This is violet color in rainbow</p>
   <p class="rainbow" id="indigo">This is indigo color in rainbow</p>
   <p class="rainbow" id="blue">This is blue color in rainbow</p>
   <p class="rainbow" id="green">This is green color in rainbow</p>
   <p class="rainbow" id="yellow">This is yellow color in rainbow</p>
   <p class="rainbow" id="orange">This is orange color in rainbow</p>
   <p class="rainbow" id="red">This is red color in rainbow</p> 
+  </div>
 
 
   <!-- Div element in html is used for assigning common properties to elements that one wants to group based on that properties. 
@@ -107,9 +109,9 @@
   <!-- For above example of rainbow, an alternative approach is to use a div element, instead of mentioning class name as rainbow for each element of the rainbow group 
   Demonstration of the mentioned approach is shown below-->
 
-   <h1>Version 2 of Rainbow(Doesn't work!)</h1>
+   <h1>Version 2 of Rainbow</h1>
 
-  <div class="rainbow">
+  <div class="rainbow2">
     <p id="violet">This is violet color in rainbow</p>
     <p id="indigo">This is indigo color in rainbow</p>
     <p id="blue">This is blue color in rainbow</p>
@@ -127,14 +129,17 @@
 
 <!-- Now, following rainbow version demonstrates the use of span tag, used for grouped styling in general, but using it differently in this case, which can be inferred from the webpage-->
 
-    <h1>Version 3 of Rainbow(This even doesn't work!)</h1>
-    <p>This is <span id="violet">violet </span> color in rainbow</p>
+    <h1>Version 3 of Rainbow</h1>
+
+    <div class="rainbow3">
+      <p>This is <span id="violet">violet </span> color in rainbow</p>
     <p>This is <span id="indigo">indigo</span>  color in rainbow</p>
     <p>This is <span id="blue">blue</span> color in rainbow</p>
     <p>This is <span id="green">green</span> color in rainbow</p>
     <p>This is <span id="yellow">yellow</span>  color in rainbow</p>
     <p>This is <span id="orange">orange</span>  color in rainbow</p>
     <p>This is <span id="red">red</span>  color in rainbow</p>
+  </div>
 
 <h3>Don't worry! Go to styling file inside the project and find out yourself how to make those versions 2 & 3 work</h3>
 
