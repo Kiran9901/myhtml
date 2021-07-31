@@ -40,13 +40,13 @@ Syntax for commenting is /**/
 /*Selecting all h3 tags and applying the mentioned properties*/
 
 h1 {
-  color: indigo;
+  color: #474c52;
   font-size: 1.75rem;
   /* Alternatively, we can define font size in pixels too */
 }
 
 h2 {
-  color: forestgreen;
+  color: #815f65;
   font-size: 1.5rem;
   /* Alternatively, we can define font size in pixels too */
 }
@@ -54,7 +54,7 @@ h2 {
 /* Note that same properties of the selectors h1 and h2 are mentioned in internal styling too so as to avoid the clash b/w external and internal styling and even include the concept of internal css or styling in the webpages demonstrated here */
 
 h3 {
-  color: crimson;
+  color: #cab592;
   /* All the h3's would have crimson text */
   font-size: 1.25rem;
   /* Alternatively, we can define font size in pixels too */
@@ -76,11 +76,11 @@ In color: crimson; color is the property*/
 In color: crimson; crimson is the value*/
 
 body {
-  color: blue;
+  color: #c0a9ad;
   /* Makes the whole text of a particular webpage blue, but comment internal css or inline css to make this work properly 
   
   ***A noteworthy point here is that the body selector which is used here is just applied as a default color to tags. Note that h1, h2 and h3 tags are also used here which are children to the body selector, so the blue color doesn't apply to the h1, h2 and h3 tags mentioned here*** */
-  background-color: lightblue;
+  background-color: #c8c1cf;
   /* Background color property of body is set to lightblue */
   font-family: Arial, Helvetica, sans-serif;
   /* Sets the default font of the hole webpage to Arial, Helvetica, sans-serif */
@@ -94,7 +94,7 @@ h4 {
 /* ID Selectors in CSS */
 
 #custom {
-  color: darkslategray;
+  color: #cab592;
   background-color: khaki;
 }
 /* To make distinction between duplicated custom tags, make two css rules with selectors as p#custom and h2#custom, which makes the distinction
@@ -192,3 +192,7 @@ body {
 
 /* Color properties */
 /* Color background-color and background image are discussed in msd style.css*/
+a {
+  text-decoration: none;
+  color: #a58650;
+}

@@ -13,11 +13,13 @@ a {
 #center {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgba(84, 105, 166, 0.75);
+  /* color: rgba(84, 105, 166, 0.75); Alternative repr is below */
+  color: #5469a6;
+  opacity: 0.75;
   font-size: 3rem;
   margin-top: 200px;
 }
-
+/* To explore vs code color options, just hover on the color value, through which one can edit */
 /* Remember that it's isn't an easy task to style anchor tag, so it has to be made a selector in rulesheet and then apply properties that are particular to anchor tag styling */
 
 /* Color property in CSS */
@@ -29,3 +31,11 @@ rgb(0, 0, 255) -> blue color
 rgb(0, 0, 0) -> black
 rgb(255, 255, 255) -> white
 One can even use the rgba() which includes opacity/ transparency as its additional argument, which ranges from 0 to 1*/
+
+/* Other options
+Using HEX Values 123456789 A(10) B(11) C(12) D(13) E(14) F(15) 
+Eg. #ff0000 - red
+    #00ff00 - green
+    #0000ff - blue*/
+
+/* People who are struggling with choosing colors, visit coolors.co, which is a pretty cool website for choosing the color schema */
