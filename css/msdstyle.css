@@ -1,0 +1,14 @@
+body {
+  background-image: url("../images/Dhoni.jpg");
+  background-size: cover;
+}
+
+a {
+  color: darkgray;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border: 1px solid blue;
+}
+
+/* There are 140 color names that are supported by all the browsers, go  and check them out in w3schools if required */
+/* Remember that it's isn't an easy task to style anchor tag, so it has to be made a selector in rulesheet and then apply properties that are particular to anchor tag styling */
