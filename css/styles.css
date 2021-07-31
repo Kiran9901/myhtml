@@ -87,7 +87,6 @@ body {
 }
 
 /* Grouping selectors in CSS */
-p,
 h4 {
   color: yellowgreen;
 }
@@ -109,7 +108,7 @@ h2#custom {
   background-color: other_background;
 }*/
 
-/* Class Selectors used in combination with id's in CSS */
+/* Class Selectors used in combination with id's in CSS, called as specificity */
 
 .rainbow#violet {
   color: violet;
@@ -157,18 +156,36 @@ h2#custom {
   color: red;
 } */
 
-/* Special SPAN property(span is generally used for block level elements i.e, styling for inline portion of elements) */
+/* Special SPAN property(span is generally used for inline level elements) */
 span {
   text-transform: uppercase;
 }
 
 /* Different div tags used for different rainbo versions */
 div.rainbow1 {
-  background-color: aqua;
+  background-color: violet;
 }
 div.rainbow2 {
-  background-color: deepskyblue;
+  background-color: indigo;
 }
 div.rainbow3 {
-  background-color: dodgerblue;
+  background-color: green;
+}
+
+/* Inheritance in CSS */
+p#special {
+  color: cadetblue;
+}
+
+/* Some CSS properties */
+body {
+  font-family: monospace;
+  line-height: 1.5 em;
+}
+/* Note that body is declared 2 times in the stylesheet here, but the properties of 2nd one are applicable, known as last rule applied */
+
+/* Demonstration of universal selector, which has the least specificity, so can be overridden easily by other elements */
+
+* {
+  color: blue;
 }

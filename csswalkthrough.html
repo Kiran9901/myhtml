@@ -124,7 +124,7 @@
   <!-- Notice the difference between two versions of the rainbow. In the first  version, the p tags are assigned class named rainbow and for each color, specific id's are alloted.
   As both class and id attributes are of the same p tag, the notation such as .rainbow#violet{...} worked to style each p tag.
 
-  Whereas in the second case to grouping all the p tags ith a div tag, notice that the class attribute is assigned to the div tag,whereas the id attributes are assigned to p tags, which makes the styling not to work on the p tags in the second scenario 
+  Whereas in the second case to grouping all the p tags ith a div tag, notice that the class attribute is assigned to the div tag,whereas the id attributes are assigned to p tags, which makes the styling not to work on the p tags in the second scenario, this is the concept of specificity in CSS
 -->
 
 <!-- Now, following rainbow version demonstrates the use of span tag, used for grouped styling in general, but using it differently in this case, which can be inferred from the webpage-->
@@ -144,7 +144,22 @@
 <h3>Don't worry! Go to styling file inside the project and find out yourself how to make those versions 2 & 3 work</h3>
 
 
- 
+<h2>Inheritance heirarchy</h2>
+
+<p>I'm a paragraph without any styling. So I'll inherit the default characteristics of my parent i.e, body tag</p>
+<p id="special">I'm also a paragraph, but I have a unique id, called special, which makes me look special when styled with my id</p>
+
+<!-- For more detail, consider the following HTML snippet
+  <body>
+    <div>
+      <p>!!!!!!!!!!!!!!!!!!!</p>
+      <h3>....<span>****</span>.....</h3>
+    </div>
+  </body>
+
+  
+  <!--In the above snippet, p & h3 tags inherit the properties of div, div inherits the properties of body, and span inherits the property of h3, as per the hierarchy of the elements in the HTML written. The properties change accordingly when they are overridden by declaring rulesheets for those selectors in particular.
+ -->
     <!--
         Keyboard Shortcuts to save time:
         To find them on vscode, on window open, hit help
