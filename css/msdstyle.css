@@ -7,8 +7,25 @@ a {
   color: darkgray;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  border: 1px solid blue;
+  border: 1px solid rgb(0, 0, 255, 0.5);
 }
 
-/* There are 140 color names that are supported by all the browsers, go  and check them out in w3schools if required */
+#center {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(84, 105, 166, 0.75);
+  font-size: 3rem;
+  margin-top: 200px;
+}
+
 /* Remember that it's isn't an easy task to style anchor tag, so it has to be made a selector in rulesheet and then apply properties that are particular to anchor tag styling */
+
+/* Color property in CSS */
+/* There are 140 color names that are supported by all the browsers, go  and check them out in w3schools if required */
+/* Other form of representing color property in CSS is using the rgb or rgba function
+rgb(255, 0, 0) -> red color
+rgb(0, 255,, 0) -> green color
+rgb(0, 0, 255) -> blue color
+rgb(0, 0, 0) -> black
+rgb(255, 255, 255) -> white
+One can even use the rgba() which includes opacity/ transparency as its additional argument, which ranges from 0 to 1*/
